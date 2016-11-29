@@ -6,7 +6,7 @@
 /*   By: pguillie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/20 16:26:54 by pguillie          #+#    #+#             */
-/*   Updated: 2016/11/29 22:04:13 by pguillie         ###   ########.fr       */
+/*   Updated: 2016/11/29 22:07:27 by pguillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ static char	*ft_create(char *s)
 		t[i] = s[i + nl];
 		i++;
 	}
-	if (nl != 4)
+	if (nl != 4 || ft_strlen(t) != 17)
 		return (NULL);
 	return (t);
 }
